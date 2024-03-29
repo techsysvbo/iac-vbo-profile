@@ -20,7 +20,6 @@ env:
   BUCKET_TF_STATE: ${{ secrets.BUCKET_TF_STATE}}
   AWS_REGION: us-east-1
   EKS_CLUSTER: vbo24-eks
-  AWS_REGION: us-east-1
 
 jobs:
   
