@@ -1,4 +1,4 @@
-name: "VBAR Deploy to EKS"
+name: "VBAOR Deploy to EKS"
 
 on:
  
