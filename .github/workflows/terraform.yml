@@ -1,6 +1,6 @@
 name: "VBO IAC"
 on:
-   push:
+  push:
       branches:
           - main
           - stage
