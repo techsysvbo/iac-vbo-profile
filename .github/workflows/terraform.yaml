@@ -4,7 +4,8 @@ on:
  
   push:
     branches: [ stage, main ]
-    paths: [ terraform/** ]
+    paths: 
+        - terraform/** 
   pull_request:
     branches:
         - stage
