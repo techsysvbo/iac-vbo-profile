@@ -1,4 +1,4 @@
-name: Deploy to ECR
+name: "VBAOR Deploy to EKS"
 
 on:
  
@@ -12,8 +12,6 @@ on:
         - terraform/**
 
 env:
-  ECR_REPOSITORY: flask-app
-  EKS_CLUSTER_NAME: Kubernetes-demo 
   AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID}}
   AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY}}
   BUCKET_TF_STATE: ${{ secrets.BUCKET_TF_STATE}}
